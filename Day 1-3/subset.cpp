@@ -22,9 +22,11 @@ void subarr(int i,int n,int temp[],int arr[],int s){
     }
     subarr(i+1,n,temp,arr,s);
     temp[s]=arr[i];
-    subarr(i+1,n,temp,arr,s+1);
-    // temp[s+1]=arr[i];
-    // subarr(i+1,n,temp,arr,s+2);
+    s++;
+    subarr(i+1,n,temp,arr,s);
+    temp[s+1]=arr[i];
+    s++;
+    subarr(i+1,n,temp,arr,s);
 }
 int main(){
 // vector<int> arr={1,2,3};
