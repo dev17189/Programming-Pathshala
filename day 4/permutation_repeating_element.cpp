@@ -5,7 +5,7 @@ void solve(string &str,int j){
         cout<<str<<endl;
         return;
     }
-    vector<bool> flag(259,false);
+    vector<bool> flag(256,false);
     for(int i=j;i<str.size();i++){
         if(flag[str[i]]) continue;
         else{

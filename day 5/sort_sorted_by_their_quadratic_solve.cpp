@@ -1,0 +1,2 @@
+// multiple cases as slope of quadratic equation could be positive negative or linear
+//find vertex as a divider between the values of x below which solution of quadratic equation could be positive or negative.
